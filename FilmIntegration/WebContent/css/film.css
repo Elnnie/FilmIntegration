@@ -1,0 +1,55 @@
+.dl-new dt {
+	width: 30px;
+}
+
+.dl-new dd {
+	margin-left: 50px
+}
+
+.cap4{
+	height:40px;
+}
+.cap2{
+	height:20px;
+}
+
+.titleline{
+	border-bottom: 2px solid #e5e5e5;
+}
+
+.taopp{
+	color:#f42429;
+}
+
+.maoyan{
+	color:#ef4238;
+}
+
+.nuomi{
+	color:#ff318c;
+}
+
+.point{
+	font-size:28px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.icon-maoyan{
+	width:25px;
+	height:25px;
+	background-position: 0 0;
+	background-image: url("../img/icon_maoyan.jpg");
+}
+.icon-taopp{
+	width:25px;
+	height:25px;
+	background-position: 0 0;
+	background-image: url("../img/icon_taopp.jpg");
+}
+.icon-nuomi{
+	width:25px;
+	height:25px;
+	background-position: 0 0;
+	background-image: url("../img/icon_nuomi.jpg");
+}
