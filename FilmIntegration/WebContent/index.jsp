@@ -27,46 +27,107 @@
 		</ul>
 
 		<div class="row-fluid">
-			<div class="span3">
+			<div class="span3 film_card">
 				
-					<img alt="#" src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_160x240.jpg" />
-					<div class="caption">
-						<label>神奇女侠</label>
-						<img alt="#" src="img/my_logo.jpg" class="website_logo">
-						<label>8.6</label>
+					<div class="film_poster">
+						<img alt="#" src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_160x240.jpg" />
+					</div>
+					<div class="film_info">
+						<span>神奇女侠</span>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_maoyan.jpg">
+						<span>8.6</span>
+						</div>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_taopp.jpg">
+						<span>8.6</span>
+						</div>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_nuomi.jpg">
+						<span>8.6</span>
+						</div>
+						
 					</div>
 				
+						
+						
 			</div>
-			<div class="span3">
+			<div class="span3 film_card">
 				
-					<img alt="#" src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_160x240.jpg" />
-					<div class="caption">
-						<label>神奇女侠</label>
-						<img alt="#" src="img/tpp_logo.jpg" class="website_logo">
-						<label>8.6</label>
+					<div class="film_poster">
+						<img alt="#" src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_160x240.jpg" />
+					</div>
+					<div class="film_info">
+						<span>神奇女侠</span>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_maoyan.jpg">
+						<span>8.6</span>
+						</div>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_taopp.jpg">
+						<span>8.6</span>
+						</div>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_nuomi.jpg">
+						<span>8.6</span>
+						</div>
+						
 					</div>
 				
+						
+						
 			</div>
-			<div class="span3">
+			<div class="span3 film_card">
 				
-					<img alt="#" src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_160x240.jpg" />
-					<div class="caption">
-						<label>神奇女侠</label>
-						<img alt="#" src="img/nm_logo.jpg" class="website_logo">
-						<label>8.6</label>
-				</div>
-			</div>
-			<div class="span3">
-				
-					<img alt="#" src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_160x240.jpg" />
-					<div class="caption">
-						<label>神奇女侠</label>
+					<div class="film_poster">
+						<img alt="#" src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_160x240.jpg" />
+					</div>
+					<div class="film_info">
+						<span>神奇女侠</span>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_maoyan.jpg">
+						<span>8.6</span>
+						</div>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_taopp.jpg">
+						<span>8.6</span>
+						</div>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_nuomi.jpg">
+						<span>8.6</span>
+						</div>
+						
 					</div>
 				
+						
+						
 			</div>
-		
-			</div>	
-			
+			<div class="span3 film_card">
+				
+					<div class="film_poster">
+						<img alt="#" src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_160x240.jpg" />
+					</div>
+					<div class="film_info">
+						<span>神奇女侠</span>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_maoyan.jpg">
+						<span>8.6</span>
+						</div>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_taopp.jpg">
+						<span>8.6</span>
+						</div>
+						<div style="height:20px;margin-left:5px;">
+						<img alt="#" src="img/icon_nuomi.jpg">
+						<span>8.6</span>
+						</div>
+						
+					</div>
+				
+						
+						
+			</div>
+			</div>
 			
 			</div>
 			<div class="span1">
