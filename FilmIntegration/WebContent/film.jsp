@@ -79,31 +79,31 @@
 				</div>
 				<div class="row-fluid">
 					<div class="span12">
-						<h4>票价查看</h4>
+						<h4>上映影院</h4>
 						<table class="table">
 							<tbody>
 								<tr>
 									<td>时间：</td>
-									<td>
-										<a>6月8日（今天）</a>
-										<a>6月9日（周五）</a>
-										<a>6月10日（周六）</a>
-										<a>6月11日（周日）</a>
-										<a>6月12日（周一）</a>
-										<a>6月13日（周二）</a>
-										<a>6月14日（周三）</a>									
-									</td>
+									<td><a href="#" class="a-new a-active">6月8日（今天）</a> <a
+										href="#" class="a-new">6月9日（周五）</a> <a href="#" class="a-new">6月10日（周六）</a>
+										<a href="#" class="a-new">6月11日（周日）</a> <a href="#"
+										class="a-new">6月12日（周一）</a> <a href="#" class="a-new">6月13日（周二）</a>
+										<a href="#" class="a-new">6月14日（周三）</a></td>
 								</tr>
 								<tr>
 									<td>地区：</td>
-									<td>
-									
-									</td>
+									<td class="td-new"><a href="#" class="a-new a-active">全部</a>
+										<a href="#" class="a-new">江宁区</a> <a href="#" class="a-new">鼓楼区</a>
+										<a href="#" class="a-new">玄武区</a> <a href="#" class="a-new">秦淮区</a>
+										<a href="#" class="a-new">浦口区</a> <a href="#" class="a-new">雨花台区</a>
+										<a href="#" class="a-new">溧水区</a> <a href="#" class="a-new">六合区</a>
+										<a href="#" class="a-new">栖霞区</a> <a href="#" class="a-new">高淳区</a>
+										<a href="#" class="a-new">建邺区</a></td>
 								</tr>
 								<tr>
 									<td>影院：</td>
-									<td>
-									
+									<td class="td-new"><a href="#" class="a-new a-active">全部</a>
+										<a href="#" class="a-new">万达影城</a> <a href="#" class="a-new">星美国际影城</a>
 									</td>
 								</tr>
 							</tbody>
@@ -111,7 +111,42 @@
 					</div>
 				</div>
 				<div class="row-fluid">
-					<div class="span12"></div>
+					<div class="span12">
+						<table class="table table-hover">
+							<tr>
+								<td class="td7">
+									<div>
+										<h4>万达国际影城(河西店)</h4>
+										<p>
+											地址：<strong>建邺区江东中路98号建邺万达广场娱乐楼4楼（近水西门大街）</strong>
+										</p>
+									</div>
+								</td>
+								<td class="td1 min-price">￥30</td>
+								<td class="td2">
+									<div>
+										<button class="btn btn-danger">查看详情</button>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="td7">
+									<div>
+										<h4>万达影城(太阳城店)</h4>
+										<p>
+											地址：<strong>江宁区双龙大道1539号太阳城广场五楼万达影城</strong>
+										</p>
+									</div>
+								</td>
+								<td class="td1 min-price">￥37</td>
+								<td class="td2">
+									<div>
+										<button class="btn btn-danger">查看详情</button>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
 			<div class="span2"></div>

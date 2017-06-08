@@ -18,15 +18,15 @@
 }
 
 .taopp{
-	color:#f42429;
+	color:#c73e3a;
 }
 
 .maoyan{
-	color:#ef4238;
+	color:#c73e3a;
 }
 
 .nuomi{
-	color:#ff318c;
+	color:#c73e3a;
 }
 
 .point{
@@ -52,4 +52,56 @@
 	height:25px;
 	background-position: 0 0;
 	background-image: url("../img/icon_nuomi.jpg");
+}
+
+.a-new{
+	margin-left: 4px;
+	margin-right:4px;
+	padding-left:4px;
+	padding-right:4px;
+	display:inline-block;
+	color: #000;
+	text-decoration: none;
+}
+
+.a-new:hover, .a-new:focus{
+	color: #fff;
+	background:#c73e3a;
+	text-decoration: none;
+	
+}
+
+.a-active {
+	margin-left: 4px;
+	margin-right:4px;
+	padding-left:4px;
+	padding-right:4px;
+	display:inline-block;
+	color: #fff;
+	background:#c73e3a;
+	text-decoration: none;
+}
+
+
+.td7{
+	width:70%;
+}
+
+.td1{
+	width:10%;
+	vertical-align:middle !important;
+}
+
+.td2{
+	width:20%;
+	vertical-align:middle !important;
+	text-align:center !important;
+}
+
+.min-price{
+	color:#c73e3a;
+	font-size:20px;
+}
+.more{
+	background-color:#c73e3a;
 }
