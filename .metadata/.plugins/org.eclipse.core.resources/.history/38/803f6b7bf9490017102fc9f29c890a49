@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.body{
+	font-family:"微软雅黑";
+}
+
+.index_header{
+	position:relative;
+	background-color:#c73e3a;
+	height:50px;
+}
+
+.index_navigation{
+	position:relative;
+	margin-top:10px;
+}

@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+.body{
+	font-family:"微软雅黑";
+}
+
+.index_header{
+	background-color:red;
+}
