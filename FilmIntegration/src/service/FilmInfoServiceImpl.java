@@ -1,7 +1,7 @@
 package service;
 
 import dao.DaoFactory;
-import model.Film;
+import model.FilmInfo;
 
 public class FilmInfoServiceImpl implements FilmInfoService {
 	private static FilmInfoService filmService=new FilmInfoServiceImpl();
@@ -10,8 +10,8 @@ public class FilmInfoServiceImpl implements FilmInfoService {
 		return filmService;
 	}
 	@Override
-	public Film get(String fid) {
-		Film f = DaoFactory.getFilmDao().get(fid);
+	public FilmInfo get(String fid) {
+		FilmInfo f = DaoFactory.getFilmDao().get(fid);
 		return f;
 	}
 }

@@ -1,19 +1,19 @@
 package dao;
-import model.Film;
+import model.FilmInfo;
 
-public class FilmDaoImpl implements FilmDao {
+public class FilmInfoDaoImpl implements FilmInfoDao {
 
-	private static FilmDaoImpl filmDao = new FilmDaoImpl();
+	private static FilmInfoDaoImpl filmDao = new FilmInfoDaoImpl();
 
-	public static FilmDaoImpl getInstance() {
+	public static FilmInfoDaoImpl getInstance() {
 		return filmDao;
 	}
 
 	@Override
-	public Film get(String fid) {
+	public FilmInfo get(String fid) {
 		// TODO Auto-generated method stub
 		if (fid.equals("test")) {
-			Film f = new Film();
+			FilmInfo f = new FilmInfo();
 			f.setFid("test");
 			f.setFname("神奇女侠");
 			f.setFirst_run("2017-06-02");

@@ -5,4 +5,8 @@ public class ServiceFactory {
 	{
 		return FilmInfoServiceImpl.getInstance();
 	}
+	public static FilmListService getFilmListService()
+	{
+		return FilmListServiceImpl.getInstance();
+	}
 }

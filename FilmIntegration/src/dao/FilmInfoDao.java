@@ -1,7 +1,7 @@
-package service;
+package dao;
 
 import model.FilmInfo;
 
-public interface FilmInfoService {
+public interface FilmInfoDao {
 	FilmInfo get(String fid);
 }
