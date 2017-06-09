@@ -31,13 +31,14 @@ public class ShowDetail extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		HttpSession session = request.getSession(true);
 		String fid = request.getParameter("filmId");
 		fid = "test";
 //		if (fid == null){
 //			response.sendRedirect("index.jsp");
 //		}
 		Film film = ServiceFactory.getFilmInfoService().get(fid);
-		HttpSession session = request.getSession(true);
+		
 		session.setAttribute("film", film);
 		response.sendRedirect("film.jsp"); 
 	}

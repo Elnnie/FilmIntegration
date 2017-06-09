@@ -1,5 +1,6 @@
 package service;
 
+import dao.DaoFactory;
 import model.Film;
 
 public class FilmInfoServiceImpl implements FilmInfoService {
@@ -10,8 +11,7 @@ public class FilmInfoServiceImpl implements FilmInfoService {
 	}
 	@Override
 	public Film get(String fid) {
-		Film f = new Film();
-		f.setFname("神奇女侠");
+		Film f = DaoFactory.getFilmDao().get(fid);
 		return f;
 	}
 }

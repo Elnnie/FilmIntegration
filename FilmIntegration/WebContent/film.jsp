@@ -9,6 +9,8 @@
 <link href="css/film.css" rel="stylesheet">
 </head>
 <body>
+	<jsp:useBean id="film" type="model.Film"
+		scope="session"></jsp:useBean>
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="span2"></div>
@@ -18,7 +20,7 @@
 						<div class="cap4"></div>
 						<ul class="breadcrumb">
 							<li><a href="index.jsp">首页</a> <span class="divider">/</span></li>
-							<li class="active">神奇女侠</li>
+							<li class="active"><jsp:getProperty name="film" property="fname" /></li>
 						</ul>
 						<div class="row-fluid">
 
@@ -27,26 +29,26 @@
 									src="https://img.alicdn.com/bao/uploaded/i3/TB17nqdRXXXXXagXXXXXXXXXXXX_.jpg_300x300.jpg" />
 							</div>
 							<div class="span6">
-								<h3 class="titleline">神奇女侠</h3>
+								<h3 class="titleline"><jsp:getProperty name="film" property="fname" /></h3>
 								<dl class="dl-horizontal dl-new">
 
 									<dt>首映</dt>
-									<dd>2017-06-02</dd>
+									<dd><jsp:getProperty name="film" property="first_run" /></dd>
 
 									<dt>类型</dt>
-									<dd>动作 冒险 奇幻</dd>
+									<dd><jsp:getProperty name="film" property="type" /></dd>
 
 									<dt>地区</dt>
-									<dd>美国</dd>
+									<dd><jsp:getProperty name="film" property="area" /></dd>
 
 									<dt>时长</dt>
-									<dd>142分钟</dd>
+									<dd><jsp:getProperty name="film" property="time" /></dd>
 
 									<dt>导演</dt>
-									<dd>派蒂·杰金斯</dd>
+									<dd><jsp:getProperty name="film" property="director" /></dd>
 
 									<dt>主演</dt>
-									<dd>盖尔·加朵,克里斯·派恩,罗宾·怀特,丹尼·休斯顿</dd>
+									<dd><jsp:getProperty name="film" property="leading" /></dd>
 
 								</dl>
 							</div>
@@ -54,13 +56,13 @@
 								<div class="offset2">
 									<h4>评分</h4>
 									<div class="maoyan point">
-										<i class="icon-maoyan"></i> 8.6
+										<i class="icon-maoyan"></i> <jsp:getProperty name="film" property="point_maoyan" />
 									</div>
 									<div class="nuomi point">
-										<i class="icon-nuomi"></i> 8.6
+										<i class="icon-nuomi"></i> <jsp:getProperty name="film" property="point_nuomi" />
 									</div>
 									<div class="taopp point">
-										<i class="icon-taopp"></i> 8.6
+										<i class="icon-taopp"></i> <jsp:getProperty name="film" property="point_taopp" />
 									</div>
 								</div>
 							</div>
@@ -69,10 +71,7 @@
 						<div class="row-fluid">
 							<div class="span12 well well-small">
 								<h4>剧情</h4>
-								<p>故事讲述亚马逊公主戴安娜·普林斯（盖尔·加朵
-									饰），经过在家乡天堂岛的训练，取得上帝赐予的武器与装备，化身神奇女侠，与空军上尉史蒂夫·特雷弗（克里斯·派恩
-									饰）一同来到人类世界，一起捍卫和平、拯救世界，在一战期间上演了震撼人心的史诗传奇。</p>
-								<p></p>
+								<p><jsp:getProperty name="film" property="story" /></p>
 							</div>
 						</div>
 					</div>
