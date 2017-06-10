@@ -35,7 +35,7 @@
 					%>
 					<div class="span3 film_card">
 						<div class="film_poster">
-							<img alt="#" src="<%=filmList.getFilm(i*4+j).getImgPath() %>" />
+							<a href="ShowDetail?fid='test'"><img alt="#" src="<%=filmList.getFilm(i*4+j).getImgPath() %>" /></a> 
 						</div>
 						<div class="film_info">
 							<p><%=filmList.getFilm(i*4+j).getFname() %></p>
@@ -68,7 +68,7 @@
 						%>
 					<div class="span3 film_card">
 						<div class="film_poster">
-							<img alt="#" src="<%=filmList.getFilm(i-j).getImgPath() %>" />
+							<img alt="ShowDetail?fid='test'" src="<%=filmList.getFilm(i-j).getImgPath() %>" />
 						</div>
 						<div class="film_info">
 							<p><%=filmList.getFilm(i-j).getFname() %></p>
