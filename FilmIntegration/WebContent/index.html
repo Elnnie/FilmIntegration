@@ -6,21 +6,8 @@
 <link href="css/index.css" rel='stylesheet' type='text/css' />
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 </head>
-<script type="text/javascript">
-	function a(){
-		$.ajax({ 
-		    url: 'http://localhost:8890/movie/all', 
-		    type: 'GET', 
-		    dataType: 'json', 
-		    success: function(data){  
-		    	   alert(data);
-		    }
-		   })
-	}
-	window.onload=function(){
-	 a();
-	}
-</script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/index.js"></script>
 <body>
 	<div class="container-fluid">
 		<div class="row-fluid">
@@ -29,13 +16,13 @@
 
 		<div class="row-fluid">
 			<div class="span1"></div>
-			<div class="span10">
+			<div id="filmdata" class="span10">
 				<ul class="nav nav-tabs index_navigation">
 					<li class="active"><a href="#">正在热映</a></li>
 				</ul>
 
 
-				<div class="row-fluid">
+				<!--  <div class="row-fluid">
 
 					<div class="span3 film_card">
 						<div class="film_poster">
@@ -55,7 +42,8 @@
 						</div>
 					</div>
 
-				</div>
+				</div> -->
+				
 
 			</div>
 			<div class="span1"></div>
