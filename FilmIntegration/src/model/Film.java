@@ -1,11 +1,19 @@
 package model;
 
 public class Film {
+	private String fid;
 	private String fname;
 	private String imgPath;	
 	private String point_maoyan;
 	private String point_taopp;
 	private String point_nuomi;
+	
+	public String getFid() {
+		return fid;
+	}
+	public void setFid(String fid) {
+		this.fid = fid;
+	}
 	public String getFname() {
 		return fname;
 	}

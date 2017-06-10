@@ -9,7 +9,7 @@
 <link href="css/film.css" rel="stylesheet">
 </head>
 <body>
-	<jsp:useBean id="film" type="model.Film"
+	<jsp:useBean id="film" type="model.FilmInfo"
 		scope="session"></jsp:useBean>
 	<div class="container-fluid">
 		<div class="row-fluid">
