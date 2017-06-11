@@ -10,6 +10,11 @@
 </head>
 <body>
 	<div class="container-fluid">
+		<div class="row-fluid" style="margin-top:20px;">
+			<div class="span12 index_header">
+				<h1 class="offset1">电影信息集成</h1>
+			</div>
+		</div>
 		<div class="row-fluid">
 			<div class="span2"></div>
 			<div class="span8">
@@ -17,7 +22,7 @@
 					<div class="span12">
 						<div class="cap4"></div>
 						<ul class="breadcrumb">
-							<li><a href="index.jsp">首页</a> <span class="divider">/</span></li>
+							<li><a class="a-defined" href="index.html">首页</a> <span class="divider">/</span></li>
 							<li id="bcname" class="active"></li>
 						</ul>
 						<div class="row-fluid">
@@ -82,25 +87,24 @@
 								<tr>
 									<td>时间：</td>
 									<td>
-									<a href="#" id="day1" class="a-new a-active"> </a> 
-									<a href="#" id="day2" class="a-new"> </a> 
-									<a href="#" id="day3" class="a-new"> </a>
-									<a href="#" id="day4" class="a-new"> </a> 
-									<a href="#" id="day5" class="a-new"> </a>
-									<a href="#" id="day6" class="a-new"> </a>
-									<a href="#" id="day7" class="a-new"> </a></td>
+									<a href="javascript:changeday(1)" id="day1" class="day-new day-active"> </a> 
+									<a href="javascript:changeday(2)" id="day2" class="day-new"> </a> 
+									<a href="javascript:changeday(3)" id="day3" class="day-new"> </a> 
+									<a href="javascript:changeday(4)" id="day4" class="day-new"> </a>
+									<a href="javascript:changeday(5)" id="day5" class="day-new"> </a> 
+									<a href="javascript:changeday(6)" id="day6" class="day-new"> </a> 
+									<a href="javascript:changeday(7)" id="day7" class="day-new"> </a></td>
 								</tr>
 								<tr>
 									<td>地区：</td>
-									<td id="area" class="td-new">
-										<a href="#" class="a-new a-active">全部</a>
-									</td>
+									<td id="area" class="td-new"><a href="#"
+										class="area-new area-active">全部</a>
+										</td>
 								</tr>
 								<tr>
 									<td>影院：</td>
 									<td class="td-new"><a href="#" class="a-new a-active">全部</a>
-										<a href="#" class="a-new">这行没有数据</a>
-									</td>
+										<a href="#" class="a-new">这行没有数据</a></td>
 								</tr>
 							</tbody>
 						</table>

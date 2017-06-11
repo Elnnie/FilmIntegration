@@ -33,21 +33,21 @@ function b() {
 	})
 }
 
-function week() {
+function area() {
 	$.ajax({
 		url : 'http://localhost:8890/cinema/areaList',
 		type : 'GET',
 		dataType : 'json',
 		success : function(result) {
 			for (var i = 0; i < result.data.length; i++){
-				$("#area").append("<a href='#' class='a-new'>"+result.data[i]+"</a>");
+				$("#area").append("<a href=\"javascript:changearea("+i+")\" id='area"+i+"' class='area-new'>"+result.data[i]+"</a>");
 			}
 		}
 	})
 }
 
 
-function area() {
+function week() {
 	$.ajax({
 		url : 'http://localhost:8890/cinema/nextWeek',
 		type : 'GET',
@@ -62,6 +62,16 @@ function area() {
 			$("#day7").text(result.data[6]);
 		}
 	})
+}
+
+function changeday(day){
+	$(".day-new.day-active").removeClass("day-active");
+	$("#day"+day).addClass("day-active");
+}
+
+function changearea(area){
+	$(".area-new.area-active").removeClass("area-active");
+	$("#area"+area).addClass("area-active");
 }
 
 

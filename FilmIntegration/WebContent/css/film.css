@@ -1,3 +1,15 @@
+@CHARSET "UTF-8";
+
+.body {
+	font-family: "微软雅黑";
+}
+
+.index_header {
+	position: relative;
+	background-color: #c73e3a;
+	font-family: "华文行楷";
+	color:#fff;
+}
 .dl-new dt {
 	width: 30px;
 }
@@ -54,7 +66,7 @@
 	background-image: url("../img/icon_nuomi.jpg");
 }
 
-.a-new{
+.day-new, .area-new{
 	margin-left: 4px;
 	margin-right:4px;
 	padding-left:4px;
@@ -64,14 +76,22 @@
 	text-decoration: none;
 }
 
-.a-new:hover, .a-new:focus{
+.day-new:hover, .area-new:hover{
 	color: #fff;
 	background:#c73e3a;
 	text-decoration: none;
-	
 }
 
-.a-active {
+.day-new:focus, .area-new:focus{
+	color: #fff;
+	background:#c73e3a;
+	text-decoration: none;
+	-moz-outline-style: none;
+}
+
+	
+
+.day-active,.area-active {
 	margin-left: 4px;
 	margin-right:4px;
 	padding-left:4px;
@@ -122,3 +142,15 @@
 .table-defined th{
 	background-color:#eaeaea;
 }
+
+.a-defined:link,.a-defined:visited{
+	color:#000000;
+    text-decoration:none;
+}
+    
+.a-defined:hover {
+    color:#000000;
+    text-decoration:underline;
+    }
+
+
