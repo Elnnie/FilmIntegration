@@ -89,14 +89,35 @@ function cinema(id,date,area) {
 							+"			<button class='btn btn-danger' onclick='show("+i+")'>查看详情∨</button>"
 							+"		</div>"
 							+"	</td>"
-							+"</tr>");
+							+"</tr>"
+							+"<tr id='detailtr"+i+"' class='hidden'>"
+							+"  <td id='detail"+i+"' colspan='3'>"
+									
+							+"  <td>"
+							+"</tr>"				
+				);
 			}
 		}
 	})
 }
 
 function show(i){
-	$("#tr"+i).load("detail.html");
+	if ($("#detailtr"+i).attr('class')=='hidden'){
+		$('.nohidden').addClass("hidden");
+		$('.nohidden').removeClass("nohidden");
+		
+		$("#detailtr"+i).removeClass("hidden");
+		$("#detail"+i).load("detail.html");
+		$("#detailtr"+i).addClass("nohidden");
+	}
+	else{
+		$("#detailtr"+i).removeClass("nohidden");
+		$("#detailtr"+i).addClass("hidden");
+	}
+		
+	
+	
+	
 }
 
 window.onload = function() {

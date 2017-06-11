@@ -105,3 +105,20 @@
 .more{
 	background-color:#c73e3a;
 }
+
+.hidden{
+	display:none;
+}
+
+.nohidden{
+	
+}
+
+
+.table-defined td{
+	vertical-align:middle !important;
+}
+
+.table-defined th{
+	background-color:#eaeaea;
+}
