@@ -91,12 +91,17 @@ function cinema(id,date,area) {
 							+"			<p>"
 							+"				地址：<strong>"+result.data[i].address+"</strong>"
 							+"			</p>"
+							+"			<div id='info"+i+"' class='hidden'>"
+							+"				<p>"
+							+"					电话：<strong>"+result.data[i].phone+"</strong>"
+							+"				</p>"
+							+"			</div>"
 							+"		</div>"
 							+"	</td>"
-							+"	<td class='td1 min-price'>￥"+result.data[i].lowestPriceInNuomi+"起</td>"
+							+"	<td class='td1'><span class='min-price'>￥"+result.data[i].lowestPriceInNuomi+"</span>&nbsp;起</td>"
 							+"	<td class='td2'>"
 							+"		<div>"
-							+"			<button class='btn btn-danger' onclick='show("+i+")'>查看详情∨</button>"
+							+"			<button id='button"+i+"' class='btn btn-danger' onclick='show("+i+")'>展开&nbsp;&darr;</button>"
 							+"		</div>"
 							+"	</td>"
 							+"</tr>"
@@ -113,16 +118,19 @@ function cinema(id,date,area) {
 
 function show(i){
 	if ($("#detailtr"+i).attr('class')=='hidden'){
-		$('.nohidden').addClass("hidden");
-		$('.nohidden').removeClass("nohidden");
-		
+		$("#info"+i).removeClass("hidden");
+		$("#info"+i).addClass("nohidden");
 		$("#detailtr"+i).removeClass("hidden");
 		$("#detail"+i).load("detail.html");
 		$("#detailtr"+i).addClass("nohidden");
+		$("#button"+i).html("收起&nbsp;&uarr;");
 	}
 	else{
 		$("#detailtr"+i).removeClass("nohidden");
 		$("#detailtr"+i).addClass("hidden");
+		$("#info"+i).removeClass("nohidden");
+		$("#info"+i).addClass("hidden");
+		$("#button"+i).html("展开&nbsp;&darr;");
 	}
 		
 	
