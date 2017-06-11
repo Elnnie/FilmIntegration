@@ -8,9 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import model.FilmInfo;
-import service.ServiceFactory;
-
 /**
  * Servlet implementation class Film
  */
@@ -31,15 +28,6 @@ public class ShowDetail extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		HttpSession session = request.getSession(true);
-		String fid = request.getParameter("filmId");
-		fid = "test";
-//		if (fid == null){
-//			response.sendRedirect("index.jsp");
-//		}
-		FilmInfo film = ServiceFactory.getFilmInfoService().get(fid);
-		
-		session.setAttribute("film", film);
 		response.sendRedirect("film.jsp"); 
 	}
 

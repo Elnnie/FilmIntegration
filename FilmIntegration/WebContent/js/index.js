@@ -11,7 +11,7 @@ function a(){
 		    			 str +=
 		    			 "<div class='span3 film_card'>"
 		    					 +"<div class='film_poster'>"
-		    					 	+"<a href='ShowDetail?fid='test'' target='_black'><img alt='#' src='"+result.data[i*4+j].imgUrl+"' /></a>"
+		    					 	+"<a href='film.html?id="+result.data[i*4+j].id+"' target='_black'><img alt='#' src='"+result.data[i*4+j].imgUrl+"' /></a>"
 		    					 +"</div>"
 		    					 +"<div class='film_info'>"
 		    					 	+"	<p>"+result.data[i*4+j].name+"</p>"
@@ -35,7 +35,7 @@ function a(){
 		    		 while (j > 0){
 		    		   str += "<div class='span3 film_card'>"
 						+"<div class='film_poster'>"
-						+"<a href='ShowDetail?fid='test''><img alt='#' src='"+result.data[num-j].imgUrl+"' /></a>"
+						+"<a href='film.html?id="+result.data[num-j].id+"' target='_black'><img alt='#' src='"+result.data[num-j].imgUrl+"' /></a>"
 						+"</div>"
 						+"<div class='film_info'>"
 						+"	<p>"+result.data[num-j].name+"</p>"
