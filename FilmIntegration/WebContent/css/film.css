@@ -100,13 +100,8 @@
 	text-decoration: none;
 }
 
-.td7 {
-	width: 70%;
-}
-
-.td1 {
-	width: 10%;
-	vertical-align: middle !important;
+.td6 {
+	width: 60%;
 }
 
 .td2 {
@@ -152,4 +147,52 @@
 
 .choose-head {
 	width:45px;
+}
+
+
+.icon-3D {
+	width: 24px;
+	height: 24px;
+	background-position: 0 0;
+	background-image: url("../img/3D.ico");
+	margin-right:6px;
+}
+
+.icon-parking {
+	width: 24px;
+	height: 24px;
+	background-position: 0 0;
+	background-image: url("../img/parking.ico");
+	margin-right:6px;
+}
+
+.icon-wifi {
+	width: 24px;
+	height: 24px;
+	background-position: 0 0;
+	background-image: url("../img/Wifi.ico");
+	margin-right:6px;
+}
+.icon-child {
+	width: 24px;
+	height: 24px;
+	background-position: 0 0;
+	background-image: url("../img/child.ico");
+	margin-right:6px;
+}
+
+.icon-traffic {
+	width: 24px;
+	height: 24px;
+	background-position: 0 0;
+	background-image: url("../img/traffic.ico");
+	margin-right:6px;
+}
+
+.icon-3D {
+	width: 24px;
+	height: 24px;
+	background-position: 0 0;
+	background-image: url("../img/3D.ico");
+	margin-right:6px;
 }

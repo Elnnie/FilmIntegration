@@ -28,7 +28,7 @@
 						<div class="row-fluid">
 
 							<div class="span2">
-								<img alt="140x140" src="" />
+								<img id="url" alt="140x140" src="" />
 							</div>
 							<div class="span6">
 								<h3 id="name" class="titleline"></h3>
@@ -38,8 +38,8 @@
 									<dt>首映</dt>
 									<dd id="time"></dd>
 
-									<dt>类型</dt>
-									<dd id="type">类型？？</dd>
+									<!--  <dt>类型</dt>
+									<dd id="type">类型？？</dd>-->
 
 									<dt>地区</dt>
 									<dd id="country"></dd>
@@ -97,23 +97,28 @@
 								</tr>
 								<tr>
 									<td class="choose-head">地区：</td>
-									<td id="area" class="td-new"><a href="#"
-										class="area-new area-active">全部</a>
-										</td>
+									<td id="area" class="td-new">
+
+									</td>
 								</tr>
-								<tr>
+								<!-- <tr>
 									<td class="choose-head">影院：</td>
 									<td class="td-new"><a href="#" class="a-new a-active">全部</a>
 										<a href="#" class="a-new">这行没有数据</a></td>
-								</tr>
+								</tr> -->
 							</tbody>
 						</table>
 					</div>
 				</div>
 				<div class="row-fluid">
 					<div class="span12">
-						<table id="cinema" class="table">
+						<table  class="table">
+						<tbody id="cinema">
+						</tbody>
 						</table>
+					</div>
+					<div id="searchMore" class="span12" style="background-color: #f5f5f5; display:none; text-align:center;">
+						<a href="javascript:next()"><h5>点击查看更多&nbsp;></h5></a>
 					</div>
 				</div>
 			</div>

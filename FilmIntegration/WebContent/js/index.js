@@ -1,6 +1,6 @@
 function a(){
 		$.ajax({ 
-		    url: 'http://localhost:8890/movie/all', 
+		    url: 'http://182.254.210.229:8890/movie/all', 
 		    type: 'GET', 
 		    dataType: 'json', 
 		    success: function(result){   
